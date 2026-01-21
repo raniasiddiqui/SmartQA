@@ -38,7 +38,7 @@ Built with using **Streamlit** and powered by AI, this suite transforms manual, 
 
 ### 🖥️ Live Demo
 
-**Try it now:** [https://your-smart-qa-suite.streamlit.app](https://your-smart-qa-suite.streamlit.app) *(replace with your actual deployed URL)*
+**Try it now:** https://smart-quality-assurance.streamlit.app/ 
 
 > No login required • Instant access • Works on desktop & tablet
 
