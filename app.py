@@ -310,8 +310,8 @@ else:
 st.markdown("""
     <div class="footer">
         <strong>Built with ❤️ using Streamlit & Cutting-Edge AI</strong><br>
-        Smart QA Automation Suite • Because Quality Should Never Be a Bottleneck
-        Powered by LLaMA-3.3-70B • Secure Configuration Enabled
+        <strong>Smart QA Automation Suite • Because Quality Should Never Be a Bottleneck</strong><br>
+        <strong>Powered by LLaMA-3.3-70B • Secure Configuration Enabled</strong><br>
     </div>
 """, unsafe_allow_html=True)
 
@@ -322,5 +322,6 @@ st.markdown("""
         It can make mistakes — please always verify your results.</strong>
     </div>
 """, unsafe_allow_html=True)
+
 
 
