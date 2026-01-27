@@ -189,7 +189,7 @@ if st.session_state.active_tool == "Home":
     with col2:
         st.metric("⚡ Tests Automated", "Testing Simplified")
     with col3:
-        st.metric("🚀 Time Saved", "Focus on What Matters")
+        st.metric("🚀 Time Saved", "Smart Focus")
 
     st.markdown("---")
 
@@ -321,3 +321,4 @@ st.markdown("""
         It can make mistakes — please always verify your results.</strong>
     </div>
 """, unsafe_allow_html=True)
+
