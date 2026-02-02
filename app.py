@@ -177,9 +177,10 @@ with st.sidebar:
 
 # ── MAIN CONTENT ─────────────────────────────────────────────────────────────
 if st.session_state.active_tool == "Home":
-    st.markdown('<p class="main-header">🤖 Smart QA</p>', unsafe_allow_html=True)
+    st.markdown('<p class="main-header">Smart QA</p>
+, unsafe_allow_html=True)
     st.markdown(
-        '<p class="subtitle">Elevate Testing with Intelligence • Accelerate Delivery with Confidence</p>',
+        '<p class="subtitle">Elevate quality assurance with innovation and intelligence</p>',
         unsafe_allow_html=True
     )
 
@@ -207,7 +208,7 @@ if st.session_state.active_tool == "Home":
                 👋 Welcome to the Smart QA
             </h2>
             <p style="font-size:1.15rem; color:#334155; line-height:1.75;">
-                This is not just a tool — it's your <strong>AI Co-Pilot for flawless software delivery</strong>.<br>
+                Autonomous QA Intelligence • Because Quality Should Never Be a Bottleneck</strong>.<br>
                 From smart requirement analysis to predictive bug hunting, everything you need to ship faster, better, and bolder.
             </p>
         </div>
@@ -309,8 +310,6 @@ else:
 # ── FOOTER ───────────────────────────────────────────────────────────────────
 st.markdown("""
     <div class="footer">
-        <strong>Built with ❤️ using Streamlit & Cutting-Edge AI</strong><br>
-        <strong>Smart QA Automation Suite • Because Quality Should Never Be a Bottleneck</strong><br>
         <strong>Powered by LLaMA-3.3-70B • Secure Configuration Enabled</strong><br>
     </div>
 """, unsafe_allow_html=True)
@@ -322,6 +321,7 @@ st.markdown("""
         It can make mistakes — please always verify your results.</strong>
     </div>
 """, unsafe_allow_html=True)
+
 
 
 
