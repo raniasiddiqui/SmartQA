@@ -177,7 +177,7 @@ with st.sidebar:
 
 # ── MAIN CONTENT ─────────────────────────────────────────────────────────────
 if st.session_state.active_tool == "Home":
-    st.markdown('<p class="main-header">Smart QA</p>
+    st.markdown(<p class="main-header">Smart QA</p>
 , unsafe_allow_html=True)
     st.markdown(
         '<p class="subtitle">Elevate quality assurance with innovation and intelligence</p>',
@@ -321,6 +321,7 @@ st.markdown("""
         It can make mistakes — please always verify your results.</strong>
     </div>
 """, unsafe_allow_html=True)
+
 
 
 
