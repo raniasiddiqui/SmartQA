@@ -157,8 +157,8 @@ with st.sidebar:
         ("📚 Requirements Learning", "Requirements Learning"),
         ("📝 QA Test Case Generation", "QA Test Case Generation"),
         ("✅ UAT Test Case Generation", "UAT Test Case Generation"),
-        ("▶️ Automation test script generation", "Automation test script generation"),
-        ("🔧 Automation test script refinement", "Automation test script refinement"),
+        ("▶️ Automation Test Script Generation", "Automation Test Script Generation"),
+        ("🔧 Automation Test Script Refinement", "Automation Test Script Refinement"),
         ("🪲 Bug Prediction", "Bug Prediction")
     ]
     
@@ -177,7 +177,7 @@ with st.sidebar:
 
 # ── MAIN CONTENT ─────────────────────────────────────────────────────────────
 if st.session_state.active_tool == "Home":
-    st.markdown('<p class="main-header">Smart QA</p>'
+    st.markdown('<p class="main-header">🧠 Smart QA</p>'
 , unsafe_allow_html=True)
     st.markdown(
         '<p class="subtitle">Elevate quality assurance with innovation and intelligence</p>',
@@ -186,7 +186,7 @@ if st.session_state.active_tool == "Home":
 
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.metric("🧠 Intelligent Tools", "6")
+        st.metric("✨ Intelligent Tools", "6")
     with col2:
         st.metric("⚡ Tests Automated", "Testing Simplified")
     with col3:
@@ -245,14 +245,14 @@ else:
             "features": "• Automated test case creation<br>• Multiple test types<br>• Coverage optimization<br>• Smart scenarios",
             "tips": "• Upload requirements or type them\n• Choose test types\n• Adjust coverage level"
         },
-        "Automation test script generation": {
-            "icon": "▶️", "title": "Automation test script generation",
+        "Automation Test Script Generation": {
+            "icon": "▶️", "title": "Automation Test Script Generation",
             "desc": "Convert test cases into executable Playwright scripts with AI assistance.",
             "features": "• Auto conversion to scripts<br>• Smart locator handling<br>• Multi-step workflows",
             "tips": "• Select target environment\n• Choose browsers\n• Watch live progress"
         },
-        "Automation test script refinement": {
-            "icon": "🔧", "title": "Automation test script refinement",
+        "Automation Test Script Refinement": {
+            "icon": "🔧", "title": "Automation Test Script Refinement",
             "desc": "Optimize test execution with AI-powered insights and smart recommendations.",
             "features": "• Flaky test detection<br>• Script optimization<br>• Playwright selectors<br>• Performance analysis",
             "tips": "• Upload execution scripts\n• Upload playwright results\n• Review recommendations"
@@ -298,8 +298,8 @@ else:
     url_map = {
         "Requirements Learning": FSD_LEARNING_URL,
         "QA Test Case Generation": TEST_CASE_GEN_URL,
-        "Automation test script generation": TEST_CASE_SCRIPT_URL,
-        "Automation test script refinement": EXECUTION_REFINEMENT_URL,
+        "Automation Test Script Generation": TEST_CASE_SCRIPT_URL,
+        "Automation Test Script Refinement": EXECUTION_REFINEMENT_URL,
         "Bug Prediction": BUG_INTELLIGENCE_URL,
         "UAT Test Case Generation": UAT_TESTCASE_GEN_URL
     }
@@ -321,6 +321,7 @@ st.markdown("""
         It can make mistakes — please always verify your results.</strong>
     </div>
 """, unsafe_allow_html=True)
+
 
 
 
