@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 # Page configuration
 st.set_page_config(
     page_title="AI QA Automation Suite",
-    page_icon="🤖",
+    page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -180,7 +180,7 @@ if st.session_state.active_tool == "Home":
     # We move the emoji into its own span so the 'main-header' gradient doesn't touch it
     st.markdown(
         '<div style="text-align: center; margin: 1.5rem 0 0.5rem 0;">'
-        '<span style="font-size: 3.4rem;">🤖</span>'
+        '<span style="font-size: 3.4rem;">🧠</span>'
         '<span class="main-header" style="display: inline; margin-left: 10px;">Smart QA</span>'
         '</div>', 
         unsafe_allow_html=True
@@ -234,7 +234,7 @@ if st.session_state.active_tool == "Home":
     st.markdown("---")
 
 else:
-    st.markdown('<p class="tool-header">🤖 Smart QA</p>', unsafe_allow_html=True)
+    st.markdown('<p class="tool-header">🧠 Smart QA</p>', unsafe_allow_html=True)
 
     col_main, col_tips = st.columns([7, 3.2])
 
