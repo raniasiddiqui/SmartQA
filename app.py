@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 # Page configuration
 st.set_page_config(
     page_title="AI QA Automation Suite",
-    page_icon="🤖",
+    page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -228,7 +228,7 @@ if st.session_state.active_tool == "Home":
     st.markdown("---")
 
 else:
-    st.markdown('<p class="tool-header">🤖 Smart QA</p>', unsafe_allow_html=True)
+    st.markdown('<p class="tool-header">🧠 Smart QA</p>', unsafe_allow_html=True)
 
     col_main, col_tips = st.columns([7, 3.2])
 
@@ -321,6 +321,7 @@ st.markdown("""
         It can make mistakes — please always verify your results.</strong>
     </div>
 """, unsafe_allow_html=True)
+
 
 
 
