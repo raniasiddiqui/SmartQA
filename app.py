@@ -177,8 +177,14 @@ with st.sidebar:
 
 # ── MAIN CONTENT ─────────────────────────────────────────────────────────────
 if st.session_state.active_tool == "Home":
-    st.markdown('<p class="main-header">🧠 Smart QA</p>'
-, unsafe_allow_html=True)
+    # We move the emoji into its own span so the 'main-header' gradient doesn't touch it
+    st.markdown(
+        '<div style="text-align: center; margin: 1.5rem 0 0.5rem 0;">'
+        '<span style="font-size: 3.4rem;">🧠</span>'
+        '<span class="main-header" style="display: inline; margin-left: 10px;">Smart QA</span>'
+        '</div>', 
+        unsafe_allow_html=True
+    )
     st.markdown(
         '<p class="subtitle">Elevate quality assurance with innovation and intelligence</p>',
         unsafe_allow_html=True
@@ -321,6 +327,7 @@ st.markdown("""
         It can make mistakes — please always verify your results.</strong>
     </div>
 """, unsafe_allow_html=True)
+
 
 
 
