@@ -135,7 +135,7 @@ st.markdown("""
 FSD_LEARNING_URL = "https://automated-fsd-generator.streamlit.app/"
 TEST_CASE_GEN_URL = "https://automated-testcase-generation.streamlit.app/"
 TEST_CASE_SCRIPT_URL = "https://automated-execution.streamlit.app/"
-EXECUTION_REFINEMENT_URL = "https://automated-execution-refiner.streamlit.app/"
+# EXECUTION_REFINEMENT_URL = "https://automated-execution-refiner.streamlit.app/"
 BUG_INTELLIGENCE_URL = "https://automated-bug-prediction.streamlit.app/"
 UAT_TESTCASE_GEN_URL = "https://uat-testcase-generator.streamlit.app/"
 
@@ -158,7 +158,7 @@ with st.sidebar:
         ("📝 QA Test Case Generation", "QA Test Case Generation"),
         ("✅ UAT Test Case Generation", "UAT Test Case Generation"),
         ("▶️ Automation Test Script Generation", "Automation Test Script Generation"),
-        ("🔧 Automation Test Script Refinement", "Automation Test Script Refinement"),
+        # ("🔧 Automation Test Script Refinement", "Automation Test Script Refinement"),
         ("🪲 Bug Prediction", "Bug Prediction")
     ]
     
@@ -257,12 +257,12 @@ else:
             "features": "• Auto conversion to scripts<br>• Smart locator handling<br>• Multi-step workflows",
             "tips": "• Select target environment\n• Choose browsers\n• Watch live progress"
         },
-        "Automation Test Script Refinement": {
-            "icon": "🔧", "title": "Automation Test Script Refinement",
-            "desc": "Optimize test execution with AI-powered insights and smart recommendations.",
-            "features": "• Flaky test detection<br>• Script optimization<br>• Playwright selectors<br>• Performance analysis",
-            "tips": "• Upload execution scripts\n• Upload playwright results\n• Review recommendations"
-        },
+        # "Automation Test Script Refinement": {
+        #     "icon": "🔧", "title": "Automation Test Script Refinement",
+        #     "desc": "Optimize test execution with AI-powered insights and smart recommendations.",
+        #     "features": "• Flaky test detection<br>• Script optimization<br>• Playwright selectors<br>• Performance analysis",
+        #     "tips": "• Upload execution scripts\n• Upload playwright results\n• Review recommendations"
+        # },
         "Bug Prediction": {
             "icon": "🪲", "title": "Bug Prediction",
             "desc": "Predict, analyze and prioritize bugs using advanced AI techniques.",
@@ -305,7 +305,7 @@ else:
         "Requirements Learning": FSD_LEARNING_URL,
         "QA Test Case Generation": TEST_CASE_GEN_URL,
         "Automation Test Script Generation": TEST_CASE_SCRIPT_URL,
-        "Automation Test Script Refinement": EXECUTION_REFINEMENT_URL,
+        # "Automation Test Script Refinement": EXECUTION_REFINEMENT_URL,
         "Bug Prediction": BUG_INTELLIGENCE_URL,
         "UAT Test Case Generation": UAT_TESTCASE_GEN_URL
     }
@@ -327,6 +327,7 @@ st.markdown("""
         It can make mistakes — please always verify your results.</strong>
     </div>
 """, unsafe_allow_html=True)
+
 
 
 
